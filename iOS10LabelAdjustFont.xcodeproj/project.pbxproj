@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		773681411D85619300523764 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 773681401D85619300523764 /* main.m */; };
+		773681441D85619300523764 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 773681431D85619300523764 /* AppDelegate.m */; };
+		773681471D85619300523764 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773681461D85619300523764 /* ViewController.m */; };
+		7736814A1D85619300523764 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 773681481D85619300523764 /* Main.storyboard */; };
+		7736814C1D85619300523764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7736814B1D85619300523764 /* Assets.xcassets */; };
+		7736814F1D85619300523764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7736814D1D85619300523764 /* LaunchScreen.storyboard */; };
+		7736815A1D85619300523764 /* iOS10LabelAdjustFontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 773681591D85619300523764 /* iOS10LabelAdjustFontTests.m */; };
+		773681651D85619300523764 /* iOS10LabelAdjustFontUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 773681641D85619300523764 /* iOS10LabelAdjustFontUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		773681561D85619300523764 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 773681341D85619300523764 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7736813B1D85619300523764;
+			remoteInfo = iOS10LabelAdjustFont;
+		};
+		773681611D85619300523764 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 773681341D85619300523764 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7736813B1D85619300523764;
+			remoteInfo = iOS10LabelAdjustFont;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7736813C1D85619300523764 /* iOS10LabelAdjustFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS10LabelAdjustFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		773681401D85619300523764 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		773681421D85619300523764 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		773681431D85619300523764 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		773681451D85619300523764 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		773681461D85619300523764 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		773681491D85619300523764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7736814B1D85619300523764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7736814E1D85619300523764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		773681501D85619300523764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		773681551D85619300523764 /* iOS10LabelAdjustFontTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS10LabelAdjustFontTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		773681591D85619300523764 /* iOS10LabelAdjustFontTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS10LabelAdjustFontTests.m; sourceTree = "<group>"; };
+		7736815B1D85619300523764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		773681601D85619300523764 /* iOS10LabelAdjustFontUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS10LabelAdjustFontUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		773681641D85619300523764 /* iOS10LabelAdjustFontUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS10LabelAdjustFontUITests.m; sourceTree = "<group>"; };
+		773681661D85619300523764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		773681391D85619300523764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773681521D85619300523764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7736815D1D85619300523764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		773681331D85619300523764 = {
+			isa = PBXGroup;
+			children = (
+				7736813E1D85619300523764 /* iOS10LabelAdjustFont */,
+				773681581D85619300523764 /* iOS10LabelAdjustFontTests */,
+				773681631D85619300523764 /* iOS10LabelAdjustFontUITests */,
+				7736813D1D85619300523764 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7736813D1D85619300523764 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7736813C1D85619300523764 /* iOS10LabelAdjustFont.app */,
+				773681551D85619300523764 /* iOS10LabelAdjustFontTests.xctest */,
+				773681601D85619300523764 /* iOS10LabelAdjustFontUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7736813E1D85619300523764 /* iOS10LabelAdjustFont */ = {
+			isa = PBXGroup;
+			children = (
+				773681421D85619300523764 /* AppDelegate.h */,
+				773681431D85619300523764 /* AppDelegate.m */,
+				773681451D85619300523764 /* ViewController.h */,
+				773681461D85619300523764 /* ViewController.m */,
+				773681481D85619300523764 /* Main.storyboard */,
+				7736814B1D85619300523764 /* Assets.xcassets */,
+				7736814D1D85619300523764 /* LaunchScreen.storyboard */,
+				773681501D85619300523764 /* Info.plist */,
+				7736813F1D85619300523764 /* Supporting Files */,
+			);
+			path = iOS10LabelAdjustFont;
+			sourceTree = "<group>";
+		};
+		7736813F1D85619300523764 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				773681401D85619300523764 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		773681581D85619300523764 /* iOS10LabelAdjustFontTests */ = {
+			isa = PBXGroup;
+			children = (
+				773681591D85619300523764 /* iOS10LabelAdjustFontTests.m */,
+				7736815B1D85619300523764 /* Info.plist */,
+			);
+			path = iOS10LabelAdjustFontTests;
+			sourceTree = "<group>";
+		};
+		773681631D85619300523764 /* iOS10LabelAdjustFontUITests */ = {
+			isa = PBXGroup;
+			children = (
+				773681641D85619300523764 /* iOS10LabelAdjustFontUITests.m */,
+				773681661D85619300523764 /* Info.plist */,
+			);
+			path = iOS10LabelAdjustFontUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7736813B1D85619300523764 /* iOS10LabelAdjustFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773681691D85619300523764 /* Build configuration list for PBXNativeTarget "iOS10LabelAdjustFont" */;
+			buildPhases = (
+				773681381D85619300523764 /* Sources */,
+				773681391D85619300523764 /* Frameworks */,
+				7736813A1D85619300523764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS10LabelAdjustFont;
+			productName = iOS10LabelAdjustFont;
+			productReference = 7736813C1D85619300523764 /* iOS10LabelAdjustFont.app */;
+			productType = "com.apple.product-type.application";
+		};
+		773681541D85619300523764 /* iOS10LabelAdjustFontTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7736816C1D85619300523764 /* Build configuration list for PBXNativeTarget "iOS10LabelAdjustFontTests" */;
+			buildPhases = (
+				773681511D85619300523764 /* Sources */,
+				773681521D85619300523764 /* Frameworks */,
+				773681531D85619300523764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				773681571D85619300523764 /* PBXTargetDependency */,
+			);
+			name = iOS10LabelAdjustFontTests;
+			productName = iOS10LabelAdjustFontTests;
+			productReference = 773681551D85619300523764 /* iOS10LabelAdjustFontTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7736815F1D85619300523764 /* iOS10LabelAdjustFontUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7736816F1D85619300523764 /* Build configuration list for PBXNativeTarget "iOS10LabelAdjustFontUITests" */;
+			buildPhases = (
+				7736815C1D85619300523764 /* Sources */,
+				7736815D1D85619300523764 /* Frameworks */,
+				7736815E1D85619300523764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				773681621D85619300523764 /* PBXTargetDependency */,
+			);
+			name = iOS10LabelAdjustFontUITests;
+			productName = iOS10LabelAdjustFontUITests;
+			productReference = 773681601D85619300523764 /* iOS10LabelAdjustFontUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		773681341D85619300523764 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Justin;
+				TargetAttributes = {
+					7736813B1D85619300523764 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					773681541D85619300523764 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7736813B1D85619300523764;
+					};
+					7736815F1D85619300523764 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7736813B1D85619300523764;
+					};
+				};
+			};
+			buildConfigurationList = 773681371D85619300523764 /* Build configuration list for PBXProject "iOS10LabelAdjustFont" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 773681331D85619300523764;
+			productRefGroup = 7736813D1D85619300523764 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7736813B1D85619300523764 /* iOS10LabelAdjustFont */,
+				773681541D85619300523764 /* iOS10LabelAdjustFontTests */,
+				7736815F1D85619300523764 /* iOS10LabelAdjustFontUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7736813A1D85619300523764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7736814F1D85619300523764 /* LaunchScreen.storyboard in Resources */,
+				7736814C1D85619300523764 /* Assets.xcassets in Resources */,
+				7736814A1D85619300523764 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773681531D85619300523764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7736815E1D85619300523764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		773681381D85619300523764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773681471D85619300523764 /* ViewController.m in Sources */,
+				773681441D85619300523764 /* AppDelegate.m in Sources */,
+				773681411D85619300523764 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773681511D85619300523764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7736815A1D85619300523764 /* iOS10LabelAdjustFontTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7736815C1D85619300523764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773681651D85619300523764 /* iOS10LabelAdjustFontUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		773681571D85619300523764 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7736813B1D85619300523764 /* iOS10LabelAdjustFont */;
+			targetProxy = 773681561D85619300523764 /* PBXContainerItemProxy */;
+		};
+		773681621D85619300523764 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7736813B1D85619300523764 /* iOS10LabelAdjustFont */;
+			targetProxy = 773681611D85619300523764 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		773681481D85619300523764 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				773681491D85619300523764 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7736814D1D85619300523764 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7736814E1D85619300523764 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		773681671D85619300523764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		773681681D85619300523764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7736816A1D85619300523764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOS10LabelAdjustFont/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Justin.iOS10LabelAdjustFont;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7736816B1D85619300523764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOS10LabelAdjustFont/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Justin.iOS10LabelAdjustFont;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7736816D1D85619300523764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iOS10LabelAdjustFontTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Justin.iOS10LabelAdjustFontTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS10LabelAdjustFont.app/iOS10LabelAdjustFont";
+			};
+			name = Debug;
+		};
+		7736816E1D85619300523764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iOS10LabelAdjustFontTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Justin.iOS10LabelAdjustFontTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS10LabelAdjustFont.app/iOS10LabelAdjustFont";
+			};
+			name = Release;
+		};
+		773681701D85619300523764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iOS10LabelAdjustFontUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Justin.iOS10LabelAdjustFontUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iOS10LabelAdjustFont;
+			};
+			name = Debug;
+		};
+		773681711D85619300523764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iOS10LabelAdjustFontUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Justin.iOS10LabelAdjustFontUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iOS10LabelAdjustFont;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		773681371D85619300523764 /* Build configuration list for PBXProject "iOS10LabelAdjustFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773681671D85619300523764 /* Debug */,
+				773681681D85619300523764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		773681691D85619300523764 /* Build configuration list for PBXNativeTarget "iOS10LabelAdjustFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7736816A1D85619300523764 /* Debug */,
+				7736816B1D85619300523764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7736816C1D85619300523764 /* Build configuration list for PBXNativeTarget "iOS10LabelAdjustFontTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7736816D1D85619300523764 /* Debug */,
+				7736816E1D85619300523764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7736816F1D85619300523764 /* Build configuration list for PBXNativeTarget "iOS10LabelAdjustFontUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773681701D85619300523764 /* Debug */,
+				773681711D85619300523764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 773681341D85619300523764 /* Project object */;
+}
